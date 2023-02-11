@@ -7,3 +7,5 @@ function createArray(number){
   
   return newArray;
 }
+
+//1
