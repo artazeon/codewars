@@ -5,4 +5,4 @@ function solution(str){
   return newStr
 }
 
-console.log(solution('artazeon'))
+//console.log(solution('artazeon'))
