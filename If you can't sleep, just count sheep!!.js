@@ -1,7 +1,7 @@
-function unusualFive() {
-  const arr = ["a", "b", "c", "d", "f"]
-  return arr.length
+const countSheep = num => {
+  let val = '';
+  for (let i = 1; i <= num; i++) {
+    val += `${i} sheep...`;
+  }
+  return val;
 }
-
-
-console.log(unusualFive())

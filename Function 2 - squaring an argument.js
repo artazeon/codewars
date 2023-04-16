@@ -1,0 +1,1 @@
+const square = (i) => i*i
