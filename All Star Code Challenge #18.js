@@ -1,7 +1,5 @@
-function unusualFive() {
-  const arr = ["a", "b", "c", "d", "f"]
-  return arr.length
+function strCount(str, letter) {
+  const arr = str.split('')
+  const arrFilt = arr.filter((char) => char === letter)
+  return arrFilt.length
 }
-
-
-console.log(unusualFive())
