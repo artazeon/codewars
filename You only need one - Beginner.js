@@ -1,7 +1,3 @@
-function unusualFive() {
-  const arr = ["a", "b", "c", "d", "f"]
-  return arr.length
+function check(a, x) {
+  return a.includes(x)
 }
-
-
-console.log(unusualFive())
