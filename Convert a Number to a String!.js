@@ -1,7 +1,5 @@
-function unusualFive() {
-  const arr = ["a", "b", "c", "d", "f"]
-  return arr.length
+function numberToString(num) {
+  return String(num)
 }
 
 
-console.log(unusualFive())
