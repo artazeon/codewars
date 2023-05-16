@@ -4,4 +4,4 @@ function unusualFive() {
 }
 
 
-console.log(unusualFive())
+console.log( unusualFive() )
