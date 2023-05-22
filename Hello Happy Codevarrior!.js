@@ -1,7 +1,11 @@
-function unusualFive() {
-  const arr = ["a", "b", "c", "d", "f"]
-  return arr.length
+function Warrior(n){
+  let name = n;  
+  this.name = function(n){
+    if( n ) name=n;
+    return name;
+  }
 }
-
-
-console.log( unusualFive() )
+  
+Warrior.prototype.toString = function(){
+    return "Hi! my name's "+this.name();
+}
