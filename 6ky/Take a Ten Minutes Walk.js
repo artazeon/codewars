@@ -17,7 +17,7 @@ function isValidWalk(walk) {
   console.log(count)
   return count.n === count.s && count.e === count.w && walk.length == 10
 }
-console.log(isValidWalk(['n','s','n','s','n','s','n','s','n','s']) )
+console.log(isValidWalk([1, 2, 2, 3, 3, 3, 4, 3, 3, 3, 2, 2, 1]) )
 console.log(isValidWalk(['w','e','w','e','w','e','w','e','w','e','w','e']) )
 console.log(isValidWalk(['w']) )
 console.log(isValidWalk(['n','n','n','s','n','s','n','s','n','s']) )
