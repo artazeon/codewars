@@ -28,7 +28,7 @@ const alphabet = {
 }
 
 function alphabetPosition(text) {
-  const onlyLet = text.replace(/[^a-zA-Z]/g, "")
+  const onlyLet = text.replace(/[^a-zA-Z]/g, '')
   const arr = onlyLet.toLowerCase().split('')
   const newArr = arr.map((i) => alphabet[i])
   const newText = newArr.join(' ')
