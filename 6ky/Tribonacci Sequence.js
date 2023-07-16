@@ -10,7 +10,6 @@ function tribonacci(signature, n) {
       arr.push(signature[i])
     }
   }
-
   return arr
 }
 
