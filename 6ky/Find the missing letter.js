@@ -61,17 +61,16 @@ function findMissingLetter(array) {
   for (let i = 0; start <= alphabet.length; i++) {
     if (array[i] != alphabet[start]) {
       miss = start
-      break;
+      break
     }
     start = start + 1
   }
 
   return alphabet[miss]
-  
 }
 
 console.log(['a', 'b', 'c', 'd', 'f'][0].charCodeAt(0))
 
 console.log(findMissingLetter(['a', 'b', 'c', 'd', 'f']))
 console.log(findMissingLetter(['a', 'b', 'c', 'd', 'e', 'g']))
-console.log(findMissingLetter(['O','Q','R','S']))
+console.log(findMissingLetter(['O', 'Q', 'R', 'S']))
