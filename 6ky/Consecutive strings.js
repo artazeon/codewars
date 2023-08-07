@@ -1,9 +1,8 @@
 function longestConsec(strarr, k) {
-   const n = strarr.length
+  const n = strarr.length
   if (n === 0 || k > n || k <= 0) {
     return ''
   }
-
 
   let res = ''
 
