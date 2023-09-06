@@ -1,7 +1,5 @@
 function isIsogram(str) {
-
   let newStr = str.toLowerCase()
-  console.log(newStr)
   const obj = {}
   let res = true
 
@@ -14,8 +12,7 @@ function isIsogram(str) {
       obj[newStr[i]] = 1
     }
   }
-  console.log(obj)
-  return str.length = 0 ? false : res
+  return res
 }
 
 console.log(isIsogram('moOse'))
