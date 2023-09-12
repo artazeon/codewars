@@ -1,8 +1,6 @@
 function solution(str, ending){
-  const endStr = str.slice(str.length - ending.length, str.length)  
-
-  
-   return endStr === ending
+  const endStr = str.slice(str.length - ending.length, str.length)
+  return endStr === ending
 }
 
 console.log(solution('abcde', 'cde'))
