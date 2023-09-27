@@ -5,6 +5,7 @@ function getSum(a, b) {
 
   for (i = min; i <= max; i++) {
     sum += i
+    sum += i
   }
   
   return sum
