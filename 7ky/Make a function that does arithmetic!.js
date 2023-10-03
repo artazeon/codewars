@@ -12,7 +12,7 @@ function arithmetic(a, b, operator) {
       res = a * b
 
       break
-      case 'divide':
+    case 'divide':
       res = a / b
       break
   }
