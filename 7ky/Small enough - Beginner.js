@@ -3,4 +3,4 @@ function smallEnough(a, limit){
 }
 
 
-console.log(smallEnough([66, 101], 1))
+console.log(smallEnough([66, 101], 200))
