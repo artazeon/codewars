@@ -12,3 +12,4 @@ function unluckyDays(year) {
 }
 
 console.log(unluckyDays(1001))
+console.log(unluckyDays(2023))
