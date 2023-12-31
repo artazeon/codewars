@@ -4,8 +4,7 @@ function solve(arr){
   const res = arr.map(el => {
     let count = 0
     el = el.toLowerCase()
-    console.log(el)
-
+    
     for (let i = 0; i <= el.length; i++) {
       if (el[i] === alphabet[i]) {
         count++
@@ -16,8 +15,6 @@ function solve(arr){
   })
 
   return res
-
-
   };
 
 
