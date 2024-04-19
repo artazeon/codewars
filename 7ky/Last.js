@@ -1,11 +1,5 @@
 function last(...list) {
-  const str = list.join(',').split(',')
-
-  const res = !isNaN(parseInt(str[str.length - 1]))
-    ? +str[str.length - 1]
-    : str[str.length - 1]
-
-  return typeof res === 'string' ? res[[res.length - 1]] : res
+  return arguments
 }
 
 console.log(last([1, 2, 3, 4, 5]))
