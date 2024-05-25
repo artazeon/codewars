@@ -1,6 +1,5 @@
 function consecutive(arr, a, b) {
   const indA = arr.findIndex((el) => el === a)
-
   return arr[indA + 1] == b || arr[indA - 1] == b
 }
 
