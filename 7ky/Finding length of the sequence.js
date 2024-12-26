@@ -1,8 +1,6 @@
 const lengthOfSequence = (arr, n) => {
   const newArr = arr.join('').split(n)
-
   if (newArr.length !== 3) return 0
-
   const res = newArr[1].replace(/-/g, '')
   return res.length + 2
 }
