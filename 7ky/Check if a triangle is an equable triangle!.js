@@ -2,6 +2,7 @@ function equableTriangle(a, b, c) {
   const P = a + b + c
   const halfS = P / 2
   const S = Math.sqrt(halfS * (halfS - a) * (halfS - b) * (halfS - c))
+
   return P === S
 }
 
