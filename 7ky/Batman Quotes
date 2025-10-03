@@ -1,0 +1,14 @@
+let getQuote = function (quotes, hero) {
+  const number = hero.split('').filter((el) => !isNaN(Number(el)))
+  const heroCorrect =
+    hero[0] === 'B' ? 'Batman' : hero[0] === 'R' ? 'Robin' : 'Joker'
+  return `${heroCorrect}: ${quotes[number]}`
+}
+
+quotes = [
+  'I am vengeance. I am the night. I am Batman!',
+  'Holy haberdashery, Batman!',
+  "Let's put a smile on that faaaceee!",
+]
+
+console.log(getQuote(quotes, 'Rob1n'))
