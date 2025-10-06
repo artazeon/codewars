@@ -6,7 +6,7 @@ function compose(s1, s2) {
     return el.slice(0, ind + 1) + arr2[ind].slice(0, el.length - ind)
   })
 
-  return res
+  return res.join('\n')
 }
 
 console.log(compose('abcd\nefgh\nijkl\nmnop', 'qrst\nuvwx\nyz12\n3456'))
