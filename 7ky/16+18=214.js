@@ -1,21 +1,16 @@
 function add(num1, num2) {
-  const arr1 = num1.toString().split('').reverse()
-  const arr2 = num2.toString().split('').reverse()
-  const res = []
+  const str1 = num1.toString();
+  const str2 = num2.toString();
+  const maxLen = Math.max(str1.length, str2.length);
+  let result = '';
 
-  for (let i = 0; i < arr1.length || i < arr2.length; i++) {
-    if (arr1[i] == undefined) {
-      arr1[i] = 0
-    }
-
-    if (arr2[i] == undefined) {
-      arr2[i] = 0
-    }
-
-    res.push(+arr1[i] + +arr2[i])
+  for (let i = 0; i < maxLen; i++) {
+    const digit1 = +str1[str1.length - 1 - i] || 0;
+    const digit2 = +str2[str2.length - 1 - i] || 0;
+    result = (digit1 + digit2) + result;
   }
 
-  return res.reverse().join('')
+  return result;
 }
 
 console.log(add(1236, 30977))
