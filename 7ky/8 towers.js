@@ -5,5 +5,6 @@ function towerCombination(n) {
   }
   return result
 }
+
 console.log(towerCombination(3))
 console.log(towerCombination(18))
