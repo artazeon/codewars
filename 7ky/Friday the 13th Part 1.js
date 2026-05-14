@@ -1,0 +1,47 @@
+function killcount(counselors, jason) {
+  return counselors.filter((el) => el[1] < jason).map((name) => name[0])
+}
+
+let counselors = [
+  ['Bill', 19],
+  ['Jamie', 88],
+  ['Brendon', 90],
+  ['Tiffany', 66],
+  ['Rebecca', 6],
+  ['Rod', 12],
+  ['Rust', 87],
+  ['Bart', 32],
+  ['Spike', 72],
+  ['Sherlock', 22],
+  ['Kensuke', 28],
+  ['Karen', 38],
+  ['Brittney', 50],
+  ['Liu', 64],
+  ['Connie', 6],
+  ['Anthony', 67],
+  ['Tom', 8],
+  ['Pamela', 99],
+  ['Josica', 92],
+  ['Jacob', 2],
+  ['Itachi', 97],
+  ['Maiko', 42],
+  ['Tyler', 64],
+  ['Ahmed', 57],
+  ['John', 11],
+  ['Bianca', 9],
+  ['Lenin', 46],
+  ['Samantha', 23],
+  ['Ashley', 1],
+  ['Megan', 71],
+  ['Lauren', 55],
+  ['Laura', 28],
+  ['Matthew', 68],
+  ['Clark', 2],
+  ['Shiho', 56],
+  ['Kane', 15],
+  ['Martin', 95],
+  ['Sonya', 77],
+  ,
+]
+
+console.log(killcount(counselors, 7))
