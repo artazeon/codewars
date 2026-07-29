@@ -1,10 +1,11 @@
 function mergeStrings(first, second) {
-  let result = ''
-  let result2 = ''
-
   for (let i = 0; i < first.length; i++) {
-    for (let j = 0; j < second.length; j++) {}
+    if (second.startsWith(first.slice(i))) {
+      return first + second.slice(first.length - i)
+    }
   }
+
+  return first + second
 }
 
 console.log(mergeStrings('abcde', 'cdefgh'))
