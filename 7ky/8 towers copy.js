@@ -1,9 +1,3 @@
-function digitsAverage(input) {
-  let arr = input
-    .toString()
-    .split('')
-    .map((el) => +el)
-  return arr
-}
+function digitsAverage(input) {}
 
 console.log(digitsAverage(246))
