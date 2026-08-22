@@ -1,7 +1,7 @@
 function digitsAverage(input) {
 
 
-
+return input
 
 }
 
