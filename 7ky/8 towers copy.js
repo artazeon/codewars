@@ -1,9 +1,6 @@
-function towerCombination(n) {
-  let result = 1n
-  for (let i = 2n; i <= BigInt(n); i++) {
-    result *= i
-  }
-  return result
+function wrap(height, width, length) {
+  //your code here
+  return 0
 }
 
-console.log(towerCombination(3))
+console.log((wrap(17, 32, 11), 162))
