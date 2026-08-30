@@ -1,9 +1,4 @@
-function towerCombination(n) {
-  let result = 1n
-  for (let i = 2n; i <= BigInt(n); i++) {
-    result *= i
-  }
-  return result
+function collision(x1, y1, radius1, x2, y2, radius2) {
+  // collision?
 }
-
-console.log(towerCombination(3))
+console.log(collision(1, 1, 1, 1.1, 1.1, 0.1))
