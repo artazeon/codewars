@@ -2,4 +2,4 @@ function towerCombination(n) {
 
 }
 
-console.log(towerCombination(3))
+console.log()
