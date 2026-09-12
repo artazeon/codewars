@@ -1,9 +1,5 @@
-function towerCombination(n) {
-  let result = 1n
-  for (let i = 2n; i <= BigInt(n); i++) {
-    result *= i
-  }
-  return result
+function baseFinder(seq) {
+  return seq
 }
 
-console.log(towerCombination(3))
+console.log(baseFinder(['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']), 10)
